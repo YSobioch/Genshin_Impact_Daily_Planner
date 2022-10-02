@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.background img{
+  margin-top: 200px;
+  flex-shrink: 1;
+  min-width: 10%;
+  min-height: 10%
+}
+
+.navStick {
+  z-index: 1;
+  position: sticky;
+  top: 0px
+}
+
+.underNav {
+  z-index: -1;
 }

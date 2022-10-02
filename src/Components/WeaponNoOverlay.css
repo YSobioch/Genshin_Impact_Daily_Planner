@@ -1,0 +1,19 @@
+.weapon-container button {
+    position: absolute;
+    width: auto;
+    border: hidden;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.weapon-container:hover button{
+    visibility: visible;
+    
+}
+
+.weapon-container {
+    width:auto;
+    overflow: hidden;
+}
+
+

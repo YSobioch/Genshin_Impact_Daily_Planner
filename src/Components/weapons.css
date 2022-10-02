@@ -1,0 +1,121 @@
+.weapon-items {
+    text-align: center;
+    margin: auto;
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.weapon-items img {
+    text-align: center;
+    margin-top: 20%;
+    caret-color: transparent;
+    
+}
+
+.popover {
+    min-height: 100px;
+    min-width: 400px;
+    caret-color: transparent;
+    border: 10px black;
+}
+
+.popover-header {
+     top:0; right:0;
+}
+
+.star-1-background {
+    padding: 10px;
+    background-image: url('./images/Weapons/1starbackground.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px black;
+    
+}
+
+.star-1-header {
+    padding: 5px;
+    background-color: rgb(80, 84, 100);
+    border-bottom: solid;
+    border-color: #383b44;
+    color: white;
+}
+
+.star-2-background {
+    padding: 10px;
+    background-image: url('./images/Weapons/2-star-background.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px black;
+    
+}
+
+.star-2-header {
+    padding: 5px;
+    background-color: rgb(42, 144, 114);
+    border-bottom: solid;
+    border-color:  rgb(95, 97, 96);
+    color: white;
+    
+    
+}
+
+.star-3-background {
+    padding: 10px;
+    background-image: url('./images/Weapons/3-star-background.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px black;
+    
+}
+
+.star-3-header {
+    padding: 5px;
+    background-color: rgb(81, 128, 204);
+    border-bottom: solid;
+    color: white;
+    border-color:  rgb(84, 95, 145);
+    
+}
+
+.star-4-background {
+    padding: 10px;
+    background-image:
+     url('./images/Weapons/4-star-background.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px black;
+    
+}
+
+.star-4-header {
+    padding: 5px;
+    background-color: rgb(162, 86, 225);
+    border-bottom: solid;
+    border-color:  rgb(123, 73, 167);
+    color: white;
+}
+
+.star-5-background {
+    padding: 10px;
+    background-image: url('./images/Weapons/5-star-background.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px black;
+    
+}
+
+.star-5-header {
+    padding: 5px;
+    background: rgb(191,105,51);
+    border-bottom: solid;
+    border-color:#80684c;
+    outline: 1px;
+    color: white;
+}
