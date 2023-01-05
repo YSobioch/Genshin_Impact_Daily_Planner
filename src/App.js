@@ -20,7 +20,7 @@ function App() {
         <Navbar className='bar-color-dark' name='Navbar' links={[
           <Link to="/"><button>Front Page</button></Link>,
           <Link to="/customize"><button>Your Team</button></Link>,
-          <Link to="/data/characters"><button>Data</button></Link>]}>
+          <Link to="/data/characters"><button>Create Team</button></Link>]}>
         </Navbar>
       </div> 
       <div className="underNav">

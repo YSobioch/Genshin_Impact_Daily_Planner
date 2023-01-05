@@ -18,12 +18,14 @@
 .card-holder {
     text-align: center;  
     caret-color: transparent;
+    overflow: hidden;
 }
 
 .grid-layout {
     position: relative;
+    overflow: hidden;
     left: 11.5%;
-    right: 0%;
+    right: 11.5%;
     display: grid;
     grid-template-columns: 730px 700px;
     column-gap: 15px;

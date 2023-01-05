@@ -75,10 +75,14 @@ export function CustomizePage(props) {
 
     return (
         <div className="card-holder">
+            <br></br>
             {hasNoCharacters ? 
+                <>
                 <h1>Looks like you haven't added any characters yet</h1>
-            : <></>}
-            <h1>Your Team</h1>
+                    <img src="https://ih1.redbubble.net/image.2138484772.9442/st,small,507x507-pad,600x600,f8f8f8.jpg" height='300px'/>
+                </>
+            : <h1>Your Team</h1>}
+            
             <div className="grid-layout">
             {listElements}
             </div>

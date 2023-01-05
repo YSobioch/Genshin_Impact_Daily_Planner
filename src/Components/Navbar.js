@@ -28,7 +28,6 @@ export default function (props) {
     <div>
         <Container className={props.className} fluid>
         <Row xs={'auto'}>
-            <Col><h3>{props.name}</h3></Col>
             {buildNavbar(props.links)}
         </Row>
         </Container>

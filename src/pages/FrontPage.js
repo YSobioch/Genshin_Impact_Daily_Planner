@@ -69,13 +69,15 @@ export function FrontPage(props) {
                                 <>
                                 
                                 <Card className='toDoCard'>
-                                    <div className='weaponImage'>
-                                        <Weapon_image names={item} />
-                                    </div>
-                                    
+                                
                                     <Row><h2 className='center'>{itemDomain.source}</h2></Row>
                                     <Row>
                                         <Row className="justify-content-md-center">
+
+                                                <div className='weaponImage'>
+                                                    <Weapon_image names={item} />
+                                                </div>
+
                                             <Col xs lg="2">
                                                 <img src={`https://api.genshin.dev/materials/weapon-ascension/${itemDomain.items[0].id}`}
                                                  alt={itemDomain.items[0].name} title={itemDomain.items[0].name} height='100px'/>
@@ -209,7 +211,7 @@ export function FrontPage(props) {
         </div>
         <br></br>
         {characterToDo.length > 0 ? <h1>Character Talent Book Domains:</h1>
-        : <h1 className='nullText'>It Looks like you don't have any characters to farm for today</h1>}
+        : <h1 className='nullText'>It Looks like you don't have any characters or weapons to farm for today</h1>}
         
         {characterToDo}
         <br></br>

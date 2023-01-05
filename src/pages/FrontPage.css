@@ -27,14 +27,13 @@ a:active {
 }
 
 .card-front-clicked {
-    background-color: rgb(78, 136, 78);
+    color: #6d6d6d9d;
+    background-color: rgba(128, 128, 128, 0.171);
     
 }
 
 .grid-layout {
     position: relative;
-    
-    
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 15px;
@@ -74,15 +73,12 @@ a:active {
 }
 
 .weaponImage img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
 }
 
 .toDoCard {
     color: rgb(2, 2, 2);
 }
 
-.background {
-    
-}
 
