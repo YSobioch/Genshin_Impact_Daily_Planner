@@ -67,9 +67,9 @@ a:active {
 }
 
 .weaponImage {
-    position: absolute;
     float: left;
-    padding: 10px;
+    z-index: 5px;
+    position: absolute;
 }
 
 .weaponImage img {
@@ -79,6 +79,7 @@ a:active {
 
 .toDoCard {
     color: rgb(2, 2, 2);
+    position: relative;
 }
 
 

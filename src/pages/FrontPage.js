@@ -40,7 +40,6 @@ export function FrontPage(props) {
         let domainToFarm = [];
         props.team.map(character => {
             let usedDomain = false;
-            let usedItemDomain = false;
             if(character.items.length > 0) {
                 character.items.map((item, index) => {
                     const fetchItem = async () => {
@@ -68,16 +67,14 @@ export function FrontPage(props) {
                             setItemToFarm(itemArray => [...itemArray,
                                 <>
                                 
-                                <Card className='toDoCard'>
                                 
+                                <Card className='toDoCard'>
+                                <div className='weaponImage'>
+                                    <Weapon_image names={item} />
+                                </div>
                                     <Row><h2 className='center'>{itemDomain.source}</h2></Row>
                                     <Row>
                                         <Row className="justify-content-md-center">
-
-                                                <div className='weaponImage'>
-                                                    <Weapon_image names={item} />
-                                                </div>
-
                                             <Col xs lg="2">
                                                 <img src={`https://api.genshin.dev/materials/weapon-ascension/${itemDomain.items[0].id}`}
                                                  alt={itemDomain.items[0].name} title={itemDomain.items[0].name} height='100px'/>
