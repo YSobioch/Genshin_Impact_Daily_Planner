@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Genshin Impact Daily Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The game Genshin Impact has a rotating list of domains to farm every day, but only certain domains
+can be farmed for each character. This creates a problem of the player often not knowing when they
+can farm domains for their character, or which days they should be doing it. This planner solves 
+this problem by allowing the user to create a team, and then giving them a list of domains that
+can be farmed specifically for domains available to farm on that day.
 
-## Available Scripts
+# Pages & Functionality
 
-In the project directory, you can run:
+## Front Page
 
-### `npm start`
+This is the page that will return a list of domains that can be farmed for the player on that day.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Your Team
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This page shows the user which characters are on their team, and allows them to add up to 3 weapons
+for each character, as well as focus or remove characters from their team.
 
-### `npm test`
+## Create Team
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This page desplays all the characters, weapons, and artifacts that are in the game. The user can click
+on these characters/weapons to get more info about them and/or add them to their team.
 
-### `npm run build`
+# Take away
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The API that was used for this project was a fan made Genshin Impact API, this has taught me a lot
+about how to properly stucture APIs, and why having consistancy is important, there were pleanty of
+times it felt like I was fighting the API for data, rather than talking to it. It has really opened 
+my eyes to problems from the developer side of API interaction.
