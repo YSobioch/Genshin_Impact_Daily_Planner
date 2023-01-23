@@ -28,3 +28,7 @@ The API that was used for this project was a fan made Genshin Impact API, this h
 about how to properly stucture APIs, and why having consistancy is important, there were pleanty of
 times it felt like I was fighting the API for data, rather than talking to it. It has really opened 
 my eyes to problems from the developer side of API interaction.
+
+#Demo
+
+https://main.d2gojm9ejrospu.amplifyapp.com/
